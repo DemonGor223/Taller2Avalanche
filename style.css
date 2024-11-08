@@ -1,0 +1,50 @@
+/* Estilo global */
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0; /* Elimina el margen predeterminado */
+    background-color: #f0f0f0; /* Color de fondo opcional */
+}
+
+/* Estilo de un contenedor principal */
+.container {
+    background-color: white; /* Color de fondo del contenedor */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+/* Estilo de encabezados */
+h1 {
+    font-size: 2em; /* Tamaño de fuente */
+    margin-bottom: 10px; /* Espaciado inferior */
+}
+
+/* Estilo de párrafos */
+p {
+    font-size: 1em; /* Tamaño de fuente */
+    line-height: 1.5; /* Altura de línea */
+    color: #333; /* Color del texto */
+}
+
+/* Estilo de botones */
+button {
+    background-color: #007bff; /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+    border: none; /* Sin borde */
+    padding: 10px 20px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar el mouse */
+    transition: background-color 0.3s; /* Transición suave */
+}
+
+button:hover {
+    background-color: #0056b3; /* Color de fondo al pasar el mouse */
+}
